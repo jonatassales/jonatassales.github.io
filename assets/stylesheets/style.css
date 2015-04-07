@@ -36,7 +36,7 @@ html,body{
 	height: 200px;
 	border: solid 4px #FFF;
 	box-shadow:  0 0 10px rgba(0,0,0,0.8);
-	border-radius: 100px;
+	border-radius: 100%;
 }
 .header-top{
 	position:absolute;
@@ -799,11 +799,15 @@ p.copyright a:hover{
 		min-height: 300px;
 	}
 	.header-profile img {
-		width: 80%;
+		width: 40%;
+		margin-top: -10px;
 		height: auto;
 	}
 	.header-profile {
-		left: 40%;
+		  bottom: 45%;
+		  left: 50%;
+		  margin-left: -324px;
+		  text-align: center;
 	}
 	ul.hoby li {
 		margin: 1em 0em;
@@ -846,7 +850,7 @@ p.copyright a:hover{
 }
 @media (max-width:800px){
 	.header-profile img {
-		width: 60%;
+		width: 30%;
 		height: auto;
 	}
 	.header {
@@ -856,10 +860,10 @@ p.copyright a:hover{
 		margin-top: 7%;
 	}
 	.header-top h2 {
-		font-size: 30px;
+		font-size: 51px;
 	}
 	.header-top small {
-		font-size: 14px;
+		font-size: 37px;
 	}
 	ul.hoby {
 		margin-bottom: 1em;
@@ -1034,7 +1038,7 @@ p.copyright a:hover{
 		min-height: 142px;
 	}
 	.header-profile img {
-		width: 70%;
+		width: 30%;
 		height: auto;
 	}
 	.header-top h2 {
@@ -1044,7 +1048,9 @@ p.copyright a:hover{
 		margin-top: 9%;
 	}	
 	.header-profile {
-		left: 32%;
+	  left: auto;
+	  margin-left: 0;
+	  text-align: center;
 	}
 	.header-top small {
 		font-size: 13px;
