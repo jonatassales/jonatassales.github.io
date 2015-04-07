@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(document).scroll(function () {
         var scrollTop = $(document).scrollTop();
-        if (scrollTop > 2000 && scrollTop < 2100) {
+        if (scrollTop > 2000) {
             circles_action();
             $(document).unbind("scroll");
         }
