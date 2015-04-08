@@ -192,7 +192,7 @@
         <div class="contact">
             <div class="container">
                 <div class="contact-top">
-                    <h3 class="top-title">GET INT TOUCH</h3>
+                    <h3 class="top-title">GET IN TOUCH</h3>
                     <span class="line"></span>
                     <p>Please feel free if you would like to have a chat.</p>
                     <div class="row contact-row">
