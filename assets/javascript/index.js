@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+  var date = new Date();
+  var year = date.getFullYear();
+  document.getElementsByClassName("copyright")[0].innerHTML = year+" - Jonatas Sales";
+
   document.onscroll = function() {
     if (document.body.scrollTop > 2000) {
       circles_action();
