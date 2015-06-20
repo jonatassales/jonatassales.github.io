@@ -16,7 +16,7 @@ html,body{
 	position:relative;
 }
 #header-bg{
-    background:url(../images/banner3.jpg)no-repeat;
+    background:url(../images/banner2.jpg) center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -24,12 +24,11 @@ html,body{
 	-o-background-size:cover;
 	width: 100%;
 	height: 100%;
-	opacity: 0.5;
+	text-align: center;
 }
 .header-profile{
-	position:absolute;
-	bottom: 40%;
-	left: 8%;
+	position:relative;
+	margin-top:10%;
 }
 .header-profile img {
 	width: 200px;
@@ -39,11 +38,8 @@ html,body{
 	border-radius: 100%;
 }
 .header-top{
-	position:absolute;
-	bottom: 15%;
-	left: 8%;
-	text-align:left;
-	margin-top:8%;
+	position:relative;
+	margin-top:3%;
 }
 .header-top h2{
 	font-size:50px;
@@ -799,15 +795,9 @@ p.copyright a:hover{
 		min-height: 300px;
 	}
 	.header-profile img {
-		width: 40%;
+		width: 30%;
 		margin-top: -10px;
 		height: auto;
-	}
-	.header-profile {
-		  bottom: 45%;
-		  left: 50%;
-		  margin-left: -324px;
-		  text-align: center;
 	}
 	ul.hoby li {
 		margin: 1em 0em;
@@ -860,10 +850,10 @@ p.copyright a:hover{
 		margin-top: 7%;
 	}
 	.header-top h2 {
-		font-size: 51px;
+		font-size: 40px;
 	}
 	.header-top small {
-		font-size: 37px;
+		font-size: 25px;
 	}
 	ul.hoby {
 		margin-bottom: 1em;
@@ -920,13 +910,13 @@ p.copyright a:hover{
 }
 @media (max-width:640px){
 	.header-profile img {
-		width: 55%;
+		width: 30%;
 		height: auto;
 	}
-	.header-profile {
-		left: 39%;
-	}
 	.header-top h2 {
+		font-size: 40px;
+	}
+	.header-top small {
 		font-size: 25px;
 	}
 	h3.top-title {
@@ -1038,22 +1028,17 @@ p.copyright a:hover{
 		min-height: 142px;
 	}
 	.header-profile img {
-		width: 30%;
+		width: 40%;
 		height: auto;
 	}
 	.header-top h2 {
-		font-size: 20px;
+		font-size: 40px;
 	}
 	.header-top {
 		margin-top: 9%;
 	}	
-	.header-profile {
-	  left: auto;
-	  margin-left: 0;
-	  text-align: center;
-	}
 	.header-top small {
-		font-size: 13px;
+		font-size: 20px;
 	}
 	h3.top-title {
 		font-size: 20px;
