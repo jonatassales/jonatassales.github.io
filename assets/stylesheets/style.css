@@ -45,7 +45,7 @@ html,body{
 	font-size:50px;
 	font-weight:800;
 	color:#FFF;
-	margin:10px 0 5px 0;	
+	margin:10px 0 5px 0;
 	text-shadow: 0 0 3px #888888;
 }
 .header-top small {
@@ -167,6 +167,8 @@ a.download{
 	-moz-border-radius: 6px;
 	-ms-border-radius: 6px;
 	margin-left:0.5em;
+	margin-top: 22%;
+	float: right;
 }
 a.download:hover{
 	background:#6ab8ea;
@@ -184,7 +186,7 @@ a.download span{
 	display:inline-block;
 	vertical-align:middle;
 	margin-right:0.5em;
-	
+
 }
 /*--- About Part Ends Here ---*/
 /*--- Experience Starts Here ----*/
@@ -255,7 +257,7 @@ label.book{
 	position:relative;
 	left:-3em;
 	top:1.5em;
-	
+
 }
 .exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5{
 	color:#2b3b4b;
@@ -288,7 +290,7 @@ label.book{
 	position:relative;
 	left:3em;
 	top:1.5em;
-	
+
 }
 .exp-devide-grid-rightb{
 	width:40%;
@@ -302,7 +304,7 @@ label.book{
 	position:relative;
 	left:-3em;
 	top:1.5em;
-	
+
 }
 .education{
 	margin-top:35%;
@@ -638,7 +640,7 @@ i.twit{
 	height:48px;
 	background:url(../images/twitter.png)no-repeat;
 	display: inline-block;
-	
+
 }
 .slider-top p{
 	font-size:18px;
@@ -763,7 +765,7 @@ i.twit{
 	-o-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-ms-transition:0.5s all;
-	
+
 }
 /*--- contact Part Ends Here ----*/
 /*--- Footer Starts Here ---*/
@@ -1036,7 +1038,7 @@ p.copyright a:hover{
 	}
 	.header-top {
 		margin-top: 9%;
-	}	
+	}
 	.header-top small {
 		font-size: 20px;
 	}
@@ -1055,7 +1057,7 @@ p.copyright a:hover{
 	.exp-devide h4 {
 		font-size: 14px;
 		width: 23%;
-	}	
+	}
 	label.bag, label.book {
 		left: 7%;
 	}
@@ -1075,7 +1077,7 @@ p.copyright a:hover{
 	}
 	span.devide-line {
 		height: 418px;
-	}	
+	}
 	.experience {
 		min-height: 1040px;
 	}
@@ -1130,7 +1132,7 @@ p.copyright a:hover{
 	}
 	.award-column i.cups {
 		background-position: -258px 0px;
-	}	
+	}
 	.slider-top {
 		margin: 0 15%;
 	}
