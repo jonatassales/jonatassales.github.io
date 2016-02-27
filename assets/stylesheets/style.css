@@ -350,10 +350,16 @@ label.book{
 .skills-top{
 	padding:2em 0 0;
 }
+.skills-top p {
+	font-size:18px;
+	font-weight:400;
+	color:#7f8a90;
+	margin:1em 0;
+	text-align: center;
+}
 .skill-grids{
 	padding:3em 0;
 }
-
 .skill-grid h3{
 	color: #2b3b4b;
 	font-weight:800;
@@ -826,6 +832,9 @@ p.copyright a:hover{
 /*--- Footer Ends Here ---*/
 /*--- Media Queries Starts Here ---*/
 @media (max-width:1024px){
+	.header #menu {
+		display: none;
+	}
 	.header {
 		min-height: 300px;
 	}
