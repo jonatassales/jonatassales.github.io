@@ -6,7 +6,7 @@ var setBackground = function() {
   });
   var pattern;
   var width = window.innerWidth;
-  var height = document.body.parentNode.offsetHeight;
+  var height = window.innerWidth;
   pattern = t.generate(width, height);
   document.body.parentNode.setAttribute('style', 'background-image: ' + pattern.dataUrl);
 }
