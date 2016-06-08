@@ -1,0 +1,20 @@
+# Site settings
+title: Jonatas Sales
+email: jonatasvsales@gmail.com
+description: Hi! I'm Jonatas Sales and I'm a Software Engineer currently working for a company in Silicon Valley.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "jonatassales.com" # the base hostname & protocol for your site
+twitter_username: jonatassalles
+github_username:  jonatassales
+photo_path: https://avatars3.githubusercontent.com/u/6073626?v=3&s=400
+
+# Build settings
+markdown: kramdown
+
+# Links
+facebook: https://www.facebook.com/jonatasvsales
+linkedin: https://www.linkedin.com/in/jonatassales
+twitter: https://twitter.com/jonatasvsalles
+github: https://github.com/jonatassales
+instagram: https://www.instagram.com/jonatasvsales/
+resume: '#'

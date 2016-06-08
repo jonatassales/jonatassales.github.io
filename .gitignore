@@ -1,4 +1,1 @@
-/node_modules/
-/assets/images/
-/dist/
-.DS_Store
+_site
