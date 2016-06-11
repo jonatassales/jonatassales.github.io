@@ -46,3 +46,30 @@ h2 {
 p {
   color: #000;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 900px) {
+  html{
+    padding: 1em 0 1em 0;
+  }
+  body {
+    margin: 0;
+  }
+}
+@media (max-width: 600px) {
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu ul li {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .menu ul li a{
+    font-size: 1.4em;
+  }
+  h1 {
+    margin-bottom: 10%;
+  }
+}
