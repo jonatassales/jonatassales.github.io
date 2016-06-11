@@ -1,12 +1,36 @@
 <head>
+
+  <title>{{ site.title }}</title>
+
+  <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-  <title>{{{ site.title | escape }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Facebook -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}"/>
+  <meta property="og:site_name" content="{{ site.name }}"/>
+  <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}"/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
 
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" href="{{ site.baseurl }}assets/favicon.ico" type="image/x-icon" /> -->
+
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/reset.css">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-79159870-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
