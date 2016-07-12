@@ -8,7 +8,7 @@ var setBackground = function() {
   var width = window.innerWidth;
   var height = window.innerWidth;
   pattern = t.generate(width, height);
-  document.body.parentNode.style.transition = "background-image 0.5s linear ";
+  document.body.parentNode.style.transition = "all 0.5s";
   document.body.parentNode.style.backgroundImage = pattern.dataUrl;
 }
 setTimeout(setBackground,1);
