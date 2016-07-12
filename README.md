@@ -1,4 +1,4 @@
-# [jonatassales.com](https://jonatassales.com)
+# [jonatassales.com](http://jonatassales.com)
 
 My personal web page, containing my professional information, and my future blog.
 
